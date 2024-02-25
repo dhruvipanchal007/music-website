@@ -15,7 +15,11 @@ body {
   display: flex;
   align-items: center;
 }
-
+.menu{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
 #home{
   background-image: url("https://preview.colorlib.com/theme/deejee/images/hero_bg_1.jpg.webp");
   background-size: cover;
