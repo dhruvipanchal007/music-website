@@ -12,15 +12,25 @@ body {
 .nav-bar{
   position: absolute;
   margin-top: 24px;
-  height: 80px;
+  width: 100%;
+}
+.container{
+  max-width: 1140px;
+  padding: 0 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-menu{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .menu{
   display: flex;
   list-style: none;
   justify-content: space-between;
 }
+
 #home{
   background-image: url("https://preview.colorlib.com/theme/deejee/images/hero_bg_1.jpg.webp");
   background-size: cover;
