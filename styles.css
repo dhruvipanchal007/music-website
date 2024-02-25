@@ -5,33 +5,43 @@
 
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: black;
   background-color: white;
 }
-.nav-bar{
+
+.nav-bar {
   position: absolute;
   margin-top: 24px;
   width: 100%;
 }
-.container{
+
+.container {
   max-width: 1140px;
   padding: 0 16px;
   margin-left: auto;
   margin-right: auto;
 }
-.nav-menu{
+
+.nav-menu {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
-.menu{
+
+.logo {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.menu {
   display: flex;
   list-style: none;
   justify-content: space-between;
+  margin-left: auto;
 }
 
-#home{
+#home {
   background-image: url("https://preview.colorlib.com/theme/deejee/images/hero_bg_1.jpg.webp");
   background-size: cover;
   background-repeat: no-repeat;
