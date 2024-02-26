@@ -131,11 +131,15 @@ body {
   font-size: 32px;
   font-weight: 500;
   letter-spacing: 6.4px;
+  text-transform: uppercase;
 }
 
 .border-bottom {
   border-bottom: 2px solid rgb(227, 32, 123);
   width: 100px;
+}
+.relative{
+  position: relative;
 }
 
 .mx-auto {
@@ -161,11 +165,14 @@ body {
 }
 
 .image {
-  width: 280px;
+  width: 250px;
   height: 350px;
   position: relative;
 }
-
+.mx-3{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .pt-16 {
   padding-top: 64px;
 }
@@ -178,4 +185,17 @@ body {
   color: #fff;
   font-size: 20px;
   font-weight: 500;
+}
+
+.img-text p {
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  font-size: 11px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family:'Nunito Sans', sans-serif ;
+}
+.image:hover{
+  transform: scale(1);
 }
