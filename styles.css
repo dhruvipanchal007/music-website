@@ -141,6 +141,10 @@ body {
 .relative{
   position: relative;
 }
+.d-grid{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
 
 .mx-auto {
   margin-left: auto;
