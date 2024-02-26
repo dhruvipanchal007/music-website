@@ -133,34 +133,42 @@ body {
   letter-spacing: 6.4px;
   text-transform: uppercase;
 }
-.podcast-image{
+
+.podcast-image {
   height: 650px;
   overflow: hidden;
   width: 500px;
 }
-.column-gap{
+
+.column-gap {
   column-gap: 40px;
 }
+
 .border-bottom {
   border-bottom: 2px solid rgb(227, 32, 123);
   width: 100px;
 }
-.relative{
+
+.relative {
   position: relative;
 }
-.grid{
+
+.grid {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-row-gap: 40px;
 }
-.grid-img{
+
+.grid-img {
   width: 500px;
   height: 300px;
 }
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
+
 .show-para {
   margin-top: 40px;
   color: rgba(255, 255, 255, 0.5);
@@ -183,10 +191,12 @@ body {
   height: 350px;
   position: relative;
 }
-.mx-3{
+
+.mx-3 {
   margin-left: 10px;
   margin-right: 10px;
 }
+
 .pt-16 {
   padding-top: 64px;
 }
@@ -208,76 +218,89 @@ body {
   font-size: 11px;
   padding: 10px;
   text-transform: uppercase;
-  font-family:'Nunito Sans', sans-serif ;
+  font-family: 'Nunito Sans', sans-serif;
 }
-.image{
+
+.image {
   transition: all ease-in-out 0.5s;
   overflow: hidden;
 }
-.hidden{
+
+.hidden {
   overflow: hidden;
 }
-.podcast-image img:hover{
+
+.podcast-image img:hover {
   transform: scale(1.05);
 }
-.grid-img:hover{
+
+.grid-img:hover {
   transform: scale(1.05);
 }
-.image img:hover{
+
+.image img:hover {
   transform: scale(1.05);
 }
-.bg-dark{
+
+.bg-dark {
   background-color: #13171d !important;
 }
-.dj-content{
+
+.dj-content {
   width: 349px;
 }
-.gap{
+
+.gap {
   column-gap: 30px;
   row-gap: 30px;
 }
-.djs-img{
+
+.djs-img {
   padding-top: 64px;
 }
-
-.hover-text{
+.hover-text {
   position: absolute;
   top: 50%;
   background-color: rgba(227, 32, 123, 0.8);
-
   height: 100%;
   padding: 50px;
   text-align: center;
   color: #fff;
-  font-family:'Nunito Sans', sans-serif ;
+  font-family: 'Nunito Sans', sans-serif;
   visibility: hidden;
   transition: all ease 0.2s;
 }
-.hover-heading{
+
+.hover-heading {
   font-size: 24px;
   margin: 0;
   margin-bottom: 8px;
   font-weight: 300;
   line-height: 28px;
 }
-.hover-heading-2{
+
+.hover-heading-2 {
   margin: 0;
   margin-bottom: 8px;
   line-height: 30px;
   font-size: 17px;
 }
-.hover-para{
+
+.hover-para {
   margin-bottom: 24px;
   font-size: 17px;
   line-height: 30px;
 }
-.px-2{
+
+.px-2 {
   padding: 8px 0;
 }
-.py-2{
+
+.py-2 {
   padding: 0 8px;
 }
-.dj-content:hover .hover-text{
+
+.dj-content:hover .hover-text {
   visibility: visible;
   transform: translateY(-50%);
   transition-delay: 0.2s;
