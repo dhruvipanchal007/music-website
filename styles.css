@@ -7,7 +7,7 @@ body {
   margin: 0;
   font-family: 'Oswald', sans-serif;
   color: black;
-  background-color: white;
+  background-color: rgb(34, 40, 49);
 }
 
 .nav-bar {
@@ -67,19 +67,40 @@ body {
   height: 100vh;
 }
 
-.home-info {
+.d-flex {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+}
+
+.items-center {
   align-items: center;
+
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.h-full {
   height: 100%;
-  text-align: center;
 }
-.width{
+
+.w-60 {
   width: 60%;
-  text-align: center;
 }
-.home-heading{
+
+.w-full {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.home-heading {
   font-size: 64px;
   color: #fff;
   text-transform: uppercase;
@@ -87,4 +108,23 @@ body {
   letter-spacing: 6.4px;
   margin-bottom: 24px;
 
+}
+
+.home-btn {
+  padding: 16px 24px;
+  border: none;
+  color: #fff;
+  background-color: rgb(227, 32, 123);
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.site-section {
+  height: 100%;
+  padding: 100px 0;
+}
+
+.show-heading {
+  padding-bottom: 20px;
+  color: #fff;
 }
