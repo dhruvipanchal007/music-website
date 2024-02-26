@@ -133,6 +133,9 @@ body {
   letter-spacing: 6.4px;
   text-transform: uppercase;
 }
+.podcast-image{
+  height: 650px;
+}
 .column-gap{
   column-gap: 40px;
 }
@@ -147,6 +150,10 @@ body {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-row-gap: 40px;
+}
+.grid-img{
+  width: 500px;
+  height: 300px;
 }
 
 .mx-auto {
@@ -204,5 +211,5 @@ body {
   font-family:'Nunito Sans', sans-serif ;
 }
 .image:hover{
-  transform: scale(1);
+  transform: scale(1.2);
 }
