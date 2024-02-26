@@ -156,7 +156,10 @@ body {
 .img-text{
   bottom: 0;
 }
-
-.pt-8{
-  padding-top: 32px;
+.image{
+  width: 300px;
+  height: 350px;
+}
+.pt-16{
+  padding-top: 64px;
 }
