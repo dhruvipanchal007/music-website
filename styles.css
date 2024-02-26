@@ -136,6 +136,7 @@ body {
 .podcast-image{
   height: 650px;
   overflow: hidden;
+  width: 500px;
 }
 .column-gap{
   column-gap: 40px;
@@ -147,7 +148,7 @@ body {
 .relative{
   position: relative;
 }
-.d-grid{
+.grid{
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-row-gap: 40px;
@@ -156,12 +157,10 @@ body {
   width: 500px;
   height: 300px;
 }
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
-
 .show-para {
   margin-top: 40px;
   color: rgba(255, 255, 255, 0.5);
@@ -226,4 +225,20 @@ body {
 }
 .image img:hover{
   transform: scale(1.05);
+}
+.bg-dark{
+  background-color: #13171d !important;
+}
+.dj-content{
+  width: 349px;
+}
+.gap{
+  column-gap: 30px;
+  row-gap: 30px;
+}
+.djs-img{
+  padding-top: 64px;
+}
+.hover-text{
+  position: absolute;
 }
