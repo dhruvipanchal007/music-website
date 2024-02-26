@@ -260,7 +260,7 @@ body {
 }
 .hover-text {
   position: absolute;
-  top: 50%;
+  top:50%;
   background-color: rgba(227, 32, 123, 0.8);
   height: 100%;
   padding: 50px;
