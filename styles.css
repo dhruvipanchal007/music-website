@@ -154,14 +154,9 @@ body {
   flex-wrap: wrap;
 }
 .img-text{
-  margin: 0;
+  bottom: 0;
 }
-.image{
-  background-image: url("https://preview.colorlib.com/theme/deejee/images/img_1.jpg.webp");
-  background-position: center;
-  background-size: cover;
-  height: 400px;
-}
+
 .pt-8{
   padding-top: 32px;
 }
