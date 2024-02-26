@@ -239,6 +239,46 @@ body {
 .djs-img{
   padding-top: 64px;
 }
+
 .hover-text{
   position: absolute;
+  top: 50%;
+  background-color: rgba(227, 32, 123, 0.8);
+
+  height: 100%;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+  font-family:'Nunito Sans', sans-serif ;
+  visibility: hidden;
+  transition: all ease 0.2s;
+}
+.hover-heading{
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 300;
+  line-height: 28px;
+}
+.hover-heading-2{
+  margin: 0;
+  margin-bottom: 8px;
+  line-height: 30px;
+  font-size: 17px;
+}
+.hover-para{
+  margin-bottom: 24px;
+  font-size: 17px;
+  line-height: 30px;
+}
+.px-2{
+  padding: 8px 0;
+}
+.py-2{
+  padding: 0 8px;
+}
+.dj-content:hover .hover-text{
+  visibility: visible;
+  transform: translateY(-50%);
+  transition-delay: 0.2s;
 }
